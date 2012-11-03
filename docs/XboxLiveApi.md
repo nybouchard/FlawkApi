@@ -1,7 +1,6 @@
 ### Xbox Live Api Documentation 
 
 ##### Overview
------------
 
 This service implementation uses [XboxLeaders Public Api](http://xboxleaders.com/docs/api). It provides a public Api for the Xbox platform.
 
@@ -13,7 +12,6 @@ or banned from the Xbox Live service. The author is not responsible for the use 
 
 ##### Usage
 *(For more in-dept examples check out the /examples directory.)*
------------
 
 ```php
 <?php
@@ -46,7 +44,6 @@ outputs:
 
 ##### Function List
 *($FlawkApi = new Xbox("iTravers", $httpClientProvider()))*
------------
 
 **getProfile()**
 
@@ -129,7 +126,7 @@ array(1) {
     ["gameId"]=>
     string(10) "1096157387"
     ["gameTitle"]=>
-    string(17) "Modern Warfare¨ 3"
+    string(17) "Modern Warfareï¿½ 3"
     ["gameUrl"]=>
     string(50) "http://marketplace.xbox.com/en-US/Title/1096157387"
     ["apiAchievementsUrl"]=>

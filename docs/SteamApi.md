@@ -1,13 +1,11 @@
 ### Steam Api Documentation
 
 ##### Overview
------------
 
 This service implementation uses [Valve's Steam Community Api](https://developer.valvesoftware.com/wiki/Steam_Web_API). It provides a public Api for the Steam platform.
 
 ##### Usage
-*(For more in-dept examples check out the /examples directory.)*
--------------
+_(For more in-dept examples check out the /examples directory.)_
 
 ```php
 <?php
@@ -42,8 +40,8 @@ outputs:
 ```
 
 ##### Function List
-($FlawkApi = new Steam('MrLink', $httpClientProvider()))
------------
+_($FlawkApi = new Steam('MrLink', $httpClientProvider()))_
+
 
 **getProfile()**
 

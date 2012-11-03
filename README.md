@@ -18,3 +18,27 @@ FlawkApi is a full featured PHP5.3+ Api library for popular gaming platforms (Xb
  - New Features on existing services and new services
  - External Sign in for existing services
  - More to come
+
+##### Examples
+
+Vist the /docs folder for more indept examples/documentation of the FlawkApi.
+
+```php
+<?php
+// namespace for all the Services
+use FlawkApi\Services\Playstation;
+use FlawkApi\Services\Xbox;
+use FlawkApi\Services\Steam;
+
+// include FlawkApi bootstrap
+require_once (__DIR__.'/bootstrap.php');
+
+// FlawkClient() is the http client that comes with the FlawkApi package
+$httpClientProvider = function(){
+  return new \FlawkApi\Common\Http\Client\FlawkClient();
+};
+
+$playstation = new Playstation("Carlosvaldosta", $httpClientProvider);
+$xbox = new Xbox("iTravers", $httpClientProvider);
+$steam = new Steam("MrLink", $httpClientProvider);
+```

@@ -39,6 +39,6 @@ $httpClientProvider = function(){
 };
 
 $playstation = new Playstation("Carlosvaldosta", $httpClientProvider);
-$xbox = new Xbox("iTravers", $httpClientProvider);
-$steam = new Steam("MrLink", $httpClientProvider);
+$xbox        = new Xbox("iTravers", $httpClientProvider);
+$steam       = new Steam("MrLink", $httpClientProvider);
 ```

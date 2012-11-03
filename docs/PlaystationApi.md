@@ -1,13 +1,11 @@
 ### Playstation Service
 
 #### Overview
------------
 
 This service implementation uses the same creditials found in the [PlayStation Network Java Library](http://code.google.com/p/playstation-network/).  
 
 ##### Usage
 *(For more in-dept examples check out the /examples directory.)*
------------
 
 ```php
 <?php
@@ -42,7 +40,6 @@ outputs:
 
 ##### Function List
 *($FlawkApi = new Steam('MrLink', $httpClientProvider()))*
----------
 
 **getProfile()**
 

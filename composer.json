@@ -1,0 +1,17 @@
+{
+    "name" : "flawkapi/flawkapi",
+    "description" : "PHP5.3+ Api Library for Gaming Platform",
+    "homepage" : "https://github.com/nybouchard/FlawkApi",
+    "license" : "MIT",
+    "authors" : [
+        { "name" : "Nick Bouchard", "homepage" : "https://github.com/nybouchard" }
+    ],
+    "require" : {
+        "php" : ">=5.3"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "FlawkApi" : "src/"
+        }
+    }
+}

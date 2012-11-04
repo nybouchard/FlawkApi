@@ -9,7 +9,7 @@ FlawkApi is a full featured PHP5.3+ Api library for popular gaming platforms (Xb
 
  - PSR-0 Compliant Autoloader
  - Built for future additions and other services
- - Changeable HTTP client, FlawkApi\Common\Http\Client\ClientInterface
+ - Changeable HTTP client, `FlawkApi\Common\Http\Client\ClientInterface`
  - ([SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)), readable, documented code
 
 ##### In Development
@@ -21,7 +21,7 @@ FlawkApi is a full featured PHP5.3+ Api library for popular gaming platforms (Xb
 
 ##### Examples
 
-Vist the /docs folder for more indept examples/documentation of the FlawkApi.
+Vist the `/docs` folder for more indept examples / documentation of the FlawkApi.
 
 ```php
 <?php

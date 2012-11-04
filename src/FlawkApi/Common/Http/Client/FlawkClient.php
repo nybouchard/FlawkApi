@@ -16,7 +16,7 @@ use FlawkApi\Common\Http\Client\Exception\ClientException;
 class FlawkClient implements ClientInterface {
 
   /**
-   * @throw Butler\Common\Http\Client\Exception\ClientException;
+   * @throw FlawkApi\Common\Http\Client\Exception\ClientException;
    */
   public function __construct(){
     if (!function_exists('curl_init')) {

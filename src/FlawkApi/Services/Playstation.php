@@ -43,7 +43,7 @@ class Playstation extends Service {
   }
   
   /**
-   * Returns the latest playstation firmware needed
+   * Returns the latest playstation firmware
    * @returns string $firmware;
    */
   public function setFirmwareVersion(){

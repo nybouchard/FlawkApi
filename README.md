@@ -30,8 +30,8 @@ use FlawkApi\Services\Playstation;
 use FlawkApi\Services\Xbox;
 use FlawkApi\Services\Steam;
 
-// include FlawkApi bootstrap
-require_once (__DIR__.'/bootstrap.php');
+// include the Composer autoloader
+require __DIR__ . '/vendor/autoload.php';
 
 // FlawkClient() is the http client that comes with the FlawkApi package
 $httpClientProvider = function(){

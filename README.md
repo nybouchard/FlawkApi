@@ -17,7 +17,7 @@ FlawkApi is a full featured PHP5.3+ Api library for popular gaming platforms (Xb
  - Unit Tests
  - New Features on existing services and new services
  - External Sign in for existing services
- - More to come
+ - *More to come*
 
 ##### Examples
 
@@ -26,9 +26,9 @@ Vist the `/docs` folder for more indept examples / documentation of the FlawkApi
 ```php
 <?php
 // namespace for all the Services
-use FlawkApi\Services\Playstation;
-use FlawkApi\Services\Xbox;
-use FlawkApi\Services\Steam;
+use FlawkApi\Services\Playstation,
+    FlawkApi\Services\Xbox,
+    FlawkApi\Services\Steam;
 
 // include the Composer autoloader
 require __DIR__ . '/vendor/autoload.php';
